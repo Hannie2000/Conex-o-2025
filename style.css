@@ -9,6 +9,8 @@
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    background-image: url("imagens/stardew-valley-wood-signboard-tu886m8i4lncf9vp.jpg");
+    
   }
   
   header {
@@ -38,7 +40,7 @@
     width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 10px;
+    padding: 15px;
   }
   
   .game-image {
