@@ -8,7 +8,17 @@
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    color: #f7d3a3;
+    background-image: url("imagens/782781.png");
+    
+  }
+
+  .fundo{
+    margin: 98px;
+    background-image: url(imagens/782781.png);
+    background: no-repeat;
+    position: relative;
+    text-align: center;
   }
   
   header {
@@ -32,13 +42,14 @@
   
   .game-card {
     background-color: #fff;
+    background-image: url(imagens/cfc5c7a445516540bcbe7d72d246a881.jpg);
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 10px;
+    padding: 15px;
   }
   
   .game-image {
