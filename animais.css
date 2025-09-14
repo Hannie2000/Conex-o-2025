@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+:root{
+    --background: #000;
+    --text: #fff;
+    --highlight: #ff1ead;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000000;
+    background-image: url("imagens/782781.png");
+   
+}
+
+.fundo{
+    margin: 98px;
+    background-image: url(imagens/782781.png);
+    background: no-repeat;
+    background-size: auto;
+    position: relative;
+    text-align: center;
+}
+  
+header {
+    background-color:#1765bd;
+    color: #b6a336;
+    text-align: center;
+    padding: 20px 0;
+}
+  
+h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+

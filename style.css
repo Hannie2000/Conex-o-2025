@@ -1,3 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+:root{
+    --background: #000;
+    --text: #fff;
+    --highlight: #ff1ead;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,15 +16,16 @@
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #f7d3a3;
+    color: #000000;
     background-image: url("imagens/782781.png");
-    
+   
   }
 
   .fundo{
     margin: 98px;
     background-image: url(imagens/782781.png);
     background: no-repeat;
+    background-size: auto;
     position: relative;
     text-align: center;
   }
@@ -67,7 +76,7 @@
     font-size: 1rem;
     color: #555;
   }
-  
+
   .btn {
     display: inline-block;
     background-color: #333;
@@ -82,12 +91,3 @@
   .btn:hover {
     background-color: #555;
   }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    margin-top: 30px;
-  }
-  
