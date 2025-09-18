@@ -6,49 +6,6 @@
     --highlight: #ff1ead;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-  
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #000000;
-    background-image: url("imagens/ckinke3dxde41.png");
-   
-}
-
-.fundo{
-    margin: 87px;
-    background-image: url(imagens/ckinke3dxde41.png);
-    background: no-repeat;
-    background-size: auto;
-    position: relative;
-    text-align: center;
-}
-  
-header {
-    background-color:#1765bd;
-    color: #b6a336;
-    text-align: center;
-    padding: 20px 0;
-}
-  
-h1 {
-    font-size: 2.5rem;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
 
 body { margin: 0; padding: 0; }
 ul { list-style: none; }
