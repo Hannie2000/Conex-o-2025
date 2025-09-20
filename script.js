@@ -3,10 +3,6 @@ $(".theme-switch").on("click", () => {
     ("light-theme");
 });
 
-
-
-
-
 $(document).ready(function(){
     $('#autoWidth').lightSlider({
         autoWidth:true,
@@ -14,3 +10,12 @@ $(document).ready(function(){
         onSliderLoad: function(){ $('#autoWidth').removeClass('cS-hidden');}
     });
 });
+
+
+
+
+
+
+
+
+
