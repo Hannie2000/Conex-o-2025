@@ -18,3 +18,27 @@ Stardew Valley é um videogame RPG de simulação desenvolvido por Eric "Concern
 28/08/25
 
 organização da página 
+
+
+
+
+
+
+Parte dos personagens
+A Pen created on CodePen.
+
+Original URL: https://codepen.io/cbolson/pen/raBJWOJ.
+
+Yet another circular gallery. This one was for a CodePen challenge.
+
+I initially based the code on this previous pen https://codepen.io/cbolson/pen/vEBWwxL however I ended up refactoring most of it as usual.
+
+
+Parte dos animais
+A Pen created on CodePen.
+
+Original URL: https://codepen.io/cbolson/pen/OPyvEaE.
+
+Using sibling-count() and sibling-index() to define total number of elements and get the index of each element. Based on this previous pen https://codepen.io/cbolson/pen/wBBozqx
+
+
