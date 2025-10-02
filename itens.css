@@ -69,7 +69,14 @@ main {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+  }@font-face {
+  font-family: 'Minecraft';
+  src: url('https://assets.codepen.io/36869/MinecraftTen-VGORe.woff') format('woff');
+}
+}
+  
+
+@layer reset {
 
   *, *::before, *::after {
     box-sizing: border-box;
