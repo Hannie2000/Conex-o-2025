@@ -36,7 +36,7 @@ a { text-decoration: none; }
 .input-style {
     width: 100%;
     padding: 5px; 
-    background-color: #FEFBCC;
+    background-color: #FAE58D;
     border: 3px outset #D57A05;
     border-radius: 5px;
     -webkit-box-shadow: -3px 3px 1px rgba(0, 0, 0, .2);
@@ -68,7 +68,7 @@ textarea:focus { outline: none !important; }
 /* Pre Styles - End */
 
 /* Body & Main - Start */
-body { background-color: #faecb2; }
+body { background-color: #FAE58D; }
 
 main {
     height: 100%;
