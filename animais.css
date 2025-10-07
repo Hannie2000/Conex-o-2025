@@ -114,50 +114,27 @@ main {
   }
 
   :root {
-    /* animation duration */
-    /*--sprite-as: .8s;*/
-    /* animation direction */
     --sprite-ad: normal;
-    /* animation fill mode */
     --sprite-af: none;
-    /* animation play state */
     --sprite-ap: running;
-    /* animation iteration count */
     --sprite-ai: infinite;
-    /* animation timing function */
     --sprite-at: linear;
-    /* animation frame rate */
     --sprite-fr: 48;
 
-    /*--image-1: url(/cat.webp);*/
     --image-1: url(https://assets.codepen.io/36869/cat.webp);
-    /*--image-2: url(/spider.webp);*/
     --image-2: url(https://assets.codepen.io/36869/spider.webp);
-    /*--image-3: url(/cow.webp);*/
     --image-3: url(https://assets.codepen.io/36869/cow.webp);
-    /*--image-4: url(/creeper.webp);*/
     --image-4: url(https://assets.codepen.io/36869/creeper.webp);
-    /*--image-5: url(/enderman.webp);*/
     --image-5: url(https://assets.codepen.io/36869/enderman.webp);
-    /*--image-6: url(/evoker.webp);*/
     --image-6: url(https://assets.codepen.io/36869/evoker.webp);
-    /*--image-7: url(/golem.webp);*/
     --image-7: url(https://assets.codepen.io/36869/golem.webp);
-    /*--image-8: url(/horse.webp);*/
     --image-8: url(https://assets.codepen.io/36869/horse.webp);
-    /*--image-9: url(/ocelot.webp);*/
     --image-9: url(https://assets.codepen.io/36869/ocelot.webp);
-    /*--image-10: url(/panda.webp);*/
     --image-10: url(https://assets.codepen.io/36869/panda.webp);
-    /*--image-11: url(/skeleton.webp);*/
     --image-11: url(https://assets.codepen.io/36869/skeleton.webp);
-    /*--image-12: url(/wolf.webp);*/
     --image-12: url(https://assets.codepen.io/36869/wolf.webp);
-    /*--image-13: url(/squid.webp);*/
     --image-13: url(https://assets.codepen.io/36869/squid.webp);
-    /*--image-14: url(/fox.webp);*/
     --image-14: url(https://assets.codepen.io/36869/fox.webp);
-    /*--image-15: url(/villager.webp);*/
     --image-15: url(https://assets.codepen.io/36869/villager.webp);
 
     --characater-1: 'Cat';
@@ -414,15 +391,10 @@ div.characters {
 
   & > .preview-container {
     --sprite-image: var(--image-1);
-    /* sprite columns */
     --sprite-c: 5;
-    /* sprite image height */
     --sprite-h: 5364;
-    /* sprite image width */
     --sprite-w: 2980;
-    /* Frame frames */
     --sprite-f: 42;
-    /* Frame end position */
     --sprite-fe: calc(var(--sprite-f) - 1);
   }
 }
@@ -432,15 +404,10 @@ div.characters {
 
   & > .preview-container {
     --sprite-image: var(--image-2);
-    /* sprite columns */
     --sprite-c: 5;
-    /* sprite image height */
     --sprite-h: 3576;
-    /* sprite image width */
     --sprite-w: 2980;
-    /* Frame frames */
     --sprite-f: 28;
-    /* Frame end position */
     --sprite-fe: calc(var(--sprite-f) - 1);
   }
 }
@@ -450,15 +417,10 @@ div.characters {
 
   & > .preview-container {
     --sprite-image: var(--image-3);
-    /* sprite columns */
     --sprite-c: 5;
-    /* sprite image height */
     --sprite-h: 7152;
-    /* sprite image width */
     --sprite-w: 2980;
-    /* Frame frames */
     --sprite-f: 60;
-    /* Frame end position */
     --sprite-fe: calc(var(--sprite-f) - 1);
   }
 }
@@ -467,17 +429,11 @@ div.characters {
   --name: var(--characater-4);
 
   & > .preview-container {
-    /* sprite image */
     --sprite-image: var(--image-4);
-    /* sprite columns */
     --sprite-c: 5;
-    /* sprite image height */
     --sprite-h: 6556;
-    /* sprite image width */
     --sprite-w: 2980;
-    /* Frame frames */
     --sprite-f: 55;
-    /* Frame end position */
     --sprite-fe: calc(var(--sprite-f) - 1);
   }
 }
@@ -486,17 +442,11 @@ div.characters {
   --name: var(--characater-5);
 
   & > .preview-container {
-    /* sprite image */
     --sprite-image: var(--image-5);
-    /* sprite columns */
     --sprite-c: 5;
-    /* sprite image height */
     --sprite-h: 6556;
-    /* sprite image width */
     --sprite-w: 2980;
-    /* Frame frames */
     --sprite-f: 55;
-    /* Frame end position */
     --sprite-fe: calc(var(--sprite-f) - 1);
   }
 }
@@ -505,17 +455,11 @@ div.characters {
   --name: var(--characater-6);
 
   & > .preview-container {
-    /* sprite image */
     --sprite-image: var(--image-6);
-    /* sprite columns */
     --sprite-c: 5;
-    /* sprite image height */
     --sprite-h: 11920;
-    /* sprite image width */
     --sprite-w: 2980;
-    /* Frame frames */
     --sprite-f: 99;
-    /* Frame end position */
     --sprite-fe: calc(var(--sprite-f) - 1);
   }
 }
@@ -524,17 +468,11 @@ div.characters {
   --name: var(--characater-7);
 
   & > .preview-container {
-    /* sprite image */
     --sprite-image: var(--image-7);
-    /* sprite columns */
     --sprite-c: 5;
-    /* sprite image height */
     --sprite-h: 8940;
-    /* sprite image width */
     --sprite-w: 2980;
-    /* Frame frames */
     --sprite-f: 72;
-    /* Frame end position */
     --sprite-fe: calc(var(--sprite-f) - 1);
   }
 }
@@ -543,17 +481,11 @@ div.characters {
   --name: var(--characater-8);
 
   & > .preview-container {
-    /* sprite image */
     --sprite-image: var(--image-8);
-    /* sprite columns */
     --sprite-c: 5;
-    /* sprite image height */
     --sprite-h: 5960;
-    /* sprite image width */
     --sprite-w: 2980;
-    /* Frame frames */
     --sprite-f: 47;
-    /* Frame end position */
     --sprite-fe: calc(var(--sprite-f) - 1);
   }
 }
@@ -562,17 +494,11 @@ div.characters {
   --name: var(--characater-9);
 
   & > .preview-container {
-    /* sprite image */
     --sprite-image: var(--image-9);
-    /* sprite columns */
     --sprite-c: 5;
-    /* sprite image height */
     --sprite-h: 4768;
-    /* sprite image width */
     --sprite-w: 2980;
-    /* Frame frames */
     --sprite-f: 37;
-    /* Frame end position */
     --sprite-fe: calc(var(--sprite-f) - 1);
   }
 }
@@ -581,17 +507,11 @@ div.characters {
   --name: var(--characater-10);
 
   & > .preview-container {
-    /* sprite image */
     --sprite-image: var(--image-10);
-    /* sprite columns */
     --sprite-c: 5;
-    /* sprite image height */
     --sprite-h: 10728;
-    /* sprite image width */
     --sprite-w: 2980;
-    /* Frame frames */
     --sprite-f: 88;
-    /* Frame end position */
     --sprite-fe: calc(var(--sprite-f) - 1);
   }
 }
