@@ -134,24 +134,20 @@ main {
     --image-11: url(https://assets.codepen.io/36869/skeleton.webp);
     --image-12: url(https://assets.codepen.io/36869/wolf.webp);
     --image-13: url(https://assets.codepen.io/36869/squid.webp);
-    --image-14: url(https://assets.codepen.io/36869/fox.webp);
-    --image-15: url(https://assets.codepen.io/36869/villager.webp);
 
-    --characater-1: 'Cat';
-    --characater-2: 'Spider';
-    --characater-3: 'Cow';
-    --characater-4: 'Creeper';
-    --characater-5: 'Enderman';
-    --characater-6: 'Evoker';
-    --characater-7: 'Steel golem';
-    --characater-8: 'Skeleton horse';
-    --characater-9: 'Ocelot';
-    --characater-10: 'Panda';
-    --characater-11: 'Skeleton';
-    --characater-12: 'Wolf';
-    --characater-13: 'Squid';
-    --characater-14: 'Fox';
-    --characater-15: 'Villager';
+    --characater-1: 'Avestruz';
+    --characater-2: 'Cachorro';
+    --characater-3: 'Cabra';
+    --characater-4: 'Cavalo';
+    --characater-5: 'Coelho';
+    --characater-6: 'Dinosaurro';
+    --characater-7: 'Galinha';
+    --characater-8: 'Gato';
+    --characater-9: 'Ovelha';
+    --characater-10: 'Pato';
+    --characater-11: 'Porco';
+    --characater-12: 'Tartaruga';
+    --characater-13: 'Vaca';
   }
 }
 
@@ -573,43 +569,6 @@ div.characters {
   }
 }
 
-.characters:has(div:nth-child(14) > input:checked) + .preview {
-  --name: var(--characater-14);
-
-  & > .preview-container {
-    /* sprite image */
-    --sprite-image: var(--image-14);
-    /* sprite columns */
-    --sprite-c: 5;
-    /* sprite image height */
-    --sprite-h: 8344;
-    /* sprite image width */
-    --sprite-w: 2980;
-    /* Frame frames */
-    --sprite-f: 69;
-    /* Frame end position */
-    --sprite-fe: calc(var(--sprite-f) - 1);
-  }
-}
-
-.characters:has(div:nth-child(15) > input:checked) + .preview {
-  --name: var(--characater-15);
-
-  & > .preview-container {
-    /* sprite image */
-    --sprite-image: var(--image-15);
-    /* sprite columns */
-    --sprite-c: 5;
-    /* sprite image height */
-    --sprite-h: 4768;
-    /* sprite image width */
-    --sprite-w: 2980;
-    /* Frame frames */
-    --sprite-f: 37;
-    /* Frame end position */
-    --sprite-fe: calc(var(--sprite-f) - 1);
-  }
-}
 
 div.preview {
   display: grid;
