@@ -11,6 +11,12 @@ $(document).ready(function(){
     });
 });
 
+
+const audio = document.getElementById('meuAudio');
+
+
+
+
 let toggleDropdown = document.querySelector('.menu-icon');
 let dropdown = document.querySelector('.dropdown-nav');
 let dropdownItems = document.querySelectorAll('.dropdown-nav a');

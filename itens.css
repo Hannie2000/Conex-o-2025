@@ -58,22 +58,7 @@ main {
   src: url('https://assets.codepen.io/36869/MinecraftTen-VGORe.woff') format('woff');
 }
 
-@layer reset {
-  :root {
-    font-family: "Minecraft", sans-serif;
-    font-optical-sizing: auto;
-    line-height: 1.5;
-    font-weight: 400;
 
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }@font-face {
-  font-family: 'Minecraft';
-  src: url('https://assets.codepen.io/36869/MinecraftTen-VGORe.woff') format('woff');
-}
-}
   
 
 @layer reset {
@@ -163,9 +148,9 @@ main {
     /*--image-15: url(/villager.webp);*/
     --image-15: url(https://assets.codepen.io/36869/villager.webp);
 
-    --characater-1: 'Cat';
-    --characater-2: 'Spider';
-    --characater-3: 'Cow';
+    --characater-1: 'Fruta Estrela';
+    --characater-2: 'Fragmento Prismático';
+    --characater-3: 'Meowmere';
     --characater-4: 'Creeper';
     --characater-5: 'Enderman';
     --characater-6: 'Evoker';
@@ -824,33 +809,7 @@ div.preview {
       }
     }
 
-    &:has(.sprite-stats .sprite-fps select option[value="12"]:checked) {
-      --sprite-fr: 12;
-    }
-
-    &:has(.sprite-stats .sprite-fps select option[value="24"]:checked) {
-      --sprite-fr: 36;
-    }
-
-    &:has(.sprite-stats .sprite-fps select option[value="36"]:checked) {
-      --sprite-fr: 36;
-    }
-
-    &:has(.sprite-stats .sprite-fps select option[value="48"]:checked) {
-      --sprite-fr: 48;
-    }
-
-    &:has(.sprite-stats .sprite-fps select option[value="64"]:checked) {
-      --sprite-fr: 64;
-    }
-
-    &:has(.sprite-stats .sprite-fps select option[value="76"]:checked) {
-      --sprite-fr: 76;
-    }
-
-    &:has(.sprite-stats .sprite-fps select option[value="100"]:checked) {
-      --sprite-fr: 100;
-    }
+    
 
     & > .sprite-stats {
       background: #adcbf1;
