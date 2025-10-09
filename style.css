@@ -7,7 +7,6 @@
             box-sizing: border-box;
 }
 
-/* Texts - Start */
 h1,
 h2,
 button {
@@ -47,9 +46,7 @@ a { text-decoration: none; }
 
 input:focus,
 textarea:focus { outline: none !important; }
-/* Texts - End */
 
-/* Pre Styles - Start */
 .d-flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
 .justify-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 .justify-start { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
@@ -65,9 +62,7 @@ textarea:focus { outline: none !important; }
 .w-100 { width: 100%; }
 .h-100 { height: 100%; }
 .mb-20 { margin-bottom: 20px; }
-/* Pre Styles - End */
 
-/* Body & Main - Start */
 body { background-color: #FAE58D; }
 
 main {
@@ -83,9 +78,7 @@ main {
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
 }
-/* Body & Main - End */
 
-/* Header - Start */
 header {
     z-index: 9;
     display: block;
@@ -141,9 +134,7 @@ header {
     opacity: 0;
     visibility: hidden;
 }
-/* Header - End */
 
-/* Hero - Start */
 #hero {
     position: relative;
     width: 100vw;
@@ -194,9 +185,7 @@ header {
     height: 100%;
     max-height: 35%;
 } 
-/* Hero - End */
 
-/* Locations - Start */
 #locations,
 #villagers {
     background-color: #FAE58D;
@@ -271,9 +260,7 @@ header {
     width: 200px;
 
 }
-/* Locations - End */
 
-/* Map - Start */
 #map {
     z-index: -2;
     display: block;
@@ -306,9 +293,7 @@ header {
     right: 0;
     margin-top: -3px;
 }
-/* Map - End */
 
-/* Villagers - Start */
 #villagers .villager-box {
     width: 100%;
     max-width: 145px;
@@ -333,9 +318,7 @@ header {
     margin: -20px auto 0;
     text-shadow: 0px 2px 1px #d5864f;
 }
-/* Villagers - End */
 
-/* Contact - Start */
 #contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -400,9 +383,7 @@ header {
     cursor: pointer;
     text-shadow: 0px 2px 1px #d5864f;
 }
-/* Contact - End */
 
-/* Footer - Start */
 #footerStyle > div > div > a > img {
     height: 30px;
     margin: 0 3px;
@@ -443,11 +424,9 @@ header {
 #footerStyle { padding: 30px 50px; }
 #footerStyle > div > img:nth-child(1) { width: 170px; }
 #footerStyle > div > img:nth-child(2) { width: 250px; }
-/* Footer - End */
 
-/* Responsive - Start */
 @media only screen and (min-width: 1015px) {
-    /* Hero */
+  
     #hero { min-height: 820px; }
     #hero .title { top: 24vh; }
 
@@ -456,7 +435,6 @@ header {
         max-height: none;
     }
 
-    /* Locations & Villagers */
     #locations,
     #villagers { padding: 70px 30px; }
 
@@ -484,7 +462,6 @@ header {
             flex-basis: 15%;
     }
 
-    /* Map */
     #map {
         width: 90vw;
         margin: 0 auto;
@@ -499,7 +476,6 @@ header {
         right: 0;
     }
 
-    /* Footer */
     #footerStyle,
     #footerStyle > div {
         -webkit-box-orient: horizontal;
@@ -536,21 +512,19 @@ header {
 }
 
 @media only screen and (min-width: 1500px) {
-    /* Hero */
+   
     #hero .title { max-width: 550px; }
 }
 
 
 @media only screen and (max-width: 390px) {
-    /* Locations */
+
     #locations .location-box {
         flex-basis: 100%;
         height: 280px;
         min-width: auto;
     }
 }
-/* Responsive - End */
-
 
 
   header{
