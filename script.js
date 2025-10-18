@@ -12,7 +12,7 @@ $(document).ready(function(){
 });
 
 
-const audio = document.getElementById('meuAudio');
+
 
 
 
@@ -44,3 +44,16 @@ dropdownItems.forEach((item) => {
     item.addEventListener('click', checkState);
 });
 
+
+
+  const imagem = document.getElementById('faivicon-32x32');
+    const audio = document.getElementById('faivicon-32x32');
+
+    imagem.addEventListener('click', function() {
+        // Verifica se o áudio está pausado e o reproduz, caso contrário, pausa
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    });

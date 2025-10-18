@@ -554,3 +554,7 @@ header {
     height: 40px;
 }
 
+
+  #faivicon-32x32 {
+        cursor: pointer; /* Mostra o cursor de mão quando sobre a imagem */
+    }
