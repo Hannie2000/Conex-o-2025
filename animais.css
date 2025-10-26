@@ -121,19 +121,20 @@ main {
     --sprite-at: linear;
     --sprite-fr: 48;
 
-    --image-1: url(https://assets.codepen.io/36869/cat.webp);
-    --image-2: url(https://assets.codepen.io/36869/spider.webp);
-    --image-3: url(https://assets.codepen.io/36869/cow.webp);
-    --image-4: url(https://assets.codepen.io/36869/creeper.webp);
-    --image-5: url(https://assets.codepen.io/36869/enderman.webp);
-    --image-6: url(https://assets.codepen.io/36869/evoker.webp);
-    --image-7: url(https://assets.codepen.io/36869/golem.webp);
-    --image-8: url(https://assets.codepen.io/36869/horse.webp);
-    --image-9: url(https://assets.codepen.io/36869/ocelot.webp);
-    --image-10: url(https://assets.codepen.io/36869/panda.webp);
-    --image-11: url(https://assets.codepen.io/36869/skeleton.webp);
-    --image-12: url(https://assets.codepen.io/36869/wolf.webp);
-    --image-13: url(https://assets.codepen.io/36869/squid.webp);
+    --image-1: url(favicon_io.avestruz/favicon-32x32.png);
+    --image-2: url(favicon_io.dog/favicon-32x32.png);
+    --image-3: url(favicon_io.cabra/favicon-32x32.png);
+    --image-4: url(favicon_io.cavalo/favicon-32x32.png);
+    --image-5: url(favicon_io.coelho/favicon-32x32.png);
+    --image-6: url(favicon_io.dino/favicon-32x32.png);
+    --image-7: url(favicon_io.galinha/favicon-32x32.png);
+    --image-8: url(favicon_io.cat/favicon-32x32.png);
+    --image-9: url(favicon_io.ovelha/favicon-32x32.png);
+    --image-10: url(favicon_io.pato/favicon-32x32.png);
+    --image-11: url(favicon_io.porco/favicon-32x32.png);
+    --image-12: url(favicon_io.tartaglia/favicon-32x32.png);
+    --image-13: url(favicon_io.vaca/favicon-32x32.png);
+    --image-14: url(imagens/Sea_Monster_Anim.gif);
 
     --characater-1: 'Avestruz';
     --characater-2: 'Cachorro';
@@ -148,6 +149,7 @@ main {
     --characater-11: 'Porco';
     --characater-12: 'Tartaruga';
     --characater-13: 'Vaca';
+    --characater-14: 'Sea Monter';
   }
 }
 
@@ -569,6 +571,24 @@ div.characters {
   }
 }
 
+.characters:has(div:nth-child(14) > input:checked) + .preview {
+  --name: var(--characater-14);
+
+  & > .preview-container {
+    /* sprite image */
+    --sprite-image: var(--image-14);
+    /* sprite columns */
+    --sprite-c: 5;
+    /* sprite image height */
+    --sprite-h: 12516;
+    /* sprite image width */
+    --sprite-w: 2980;
+    /* Frame frames */
+    --sprite-f: 104;
+    /* Frame end position */
+    --sprite-fe: calc(var(--sprite-f) - 1);
+  }
+}
 
 div.preview {
   display: grid;
