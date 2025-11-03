@@ -172,13 +172,13 @@ input[type="radio"] {
 	pointer-events: initial;
 	opacity: var(--item-opacity, 0);
 	scale: var(--item-scale, 0);
-	filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+	filter: drop-shadow(0px 0px 5px rgb(255, 144, 144));
 }
 
 .cards > li:has(:checked) > img:hover {
 	transform: translateY(var(--image-y)) rotateY(-30deg) rotateX(-5deg);
 	transition-delay: 0ms;
-	filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.25));
+	filter: drop-shadow(15px 10px 5px rgba(255, 135, 135, 0.25));
 }
 
 .cards > li > h2,
@@ -303,8 +303,8 @@ this would be so much simpler if we could use counter values as custom property 
 	box-sizing: border-box;
 }
 :root {
-	--clr-bg: #000000;
-	--clr-primary: rgb(0, 0, 0);
+	--clr-bg: #ff7979;
+	--clr-primary: rgb(255, 113, 113);
 }
 html {
 	background-color: var(--clr-bg);
