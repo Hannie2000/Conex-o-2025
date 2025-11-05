@@ -178,7 +178,7 @@ input[type="radio"] {
 .cards > li:has(:checked) > img:hover {
 	transform: translateY(var(--image-y)) rotateY(-30deg) rotateX(-5deg);
 	transition-delay: 0ms;
-	filter: drop-shadow(15px 10px 5px rgba(255, 135, 135, 0.25));
+	filter: drop-shadow(15px 10px 5px rgba(233, 7, 7, 0.956));
 }
 
 .cards > li > h2,
